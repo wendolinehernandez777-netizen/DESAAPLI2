@@ -10,3 +10,5 @@ En términos sencillos, es el conjunto de herramientas que permite que las compu
     python
     import cv2
     print(cv2.__version__)
+* Verifica que solo tengas la version indicada
+y que las variables de entorno solo sean las de 312
