@@ -87,3 +87,7 @@ Despues vamos a usar ese alto y ancho para determinar los 4 puntos de la ventana
 
 ## Resultado
 ![Salida Redimencionada](2.jpg)
+
+## Reto virtualizar esta imagen
+### Crea basado en esta interface el codigo.
+![Salida Redimencionada](3.jpg)
