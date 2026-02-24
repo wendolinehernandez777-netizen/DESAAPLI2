@@ -25,9 +25,11 @@ while True:
     mask2 = cv2.inRange(hsv, lower2, upper2)
     #mask  = cv2.bitwise_or(mask1, mask2)
 
-    # rango aproximado para amarillo
-    lower_A = np.array([20, 100, 100])
-    upper_A = np.array([30, 255, 255])
+    # rango aproximado para amarillo y verde
+    #lower_A = np.array([20, 100, 100])
+    #upper_A = np.array([30, 255, 255])
+    lower_A = np.array([40, 50, 50])
+    upper_A = np.array([90, 255, 255])
 
     #Crear una mascara con los parametros de color en azul
     #mask = cv2.inRange(hsv, lower, upper)
